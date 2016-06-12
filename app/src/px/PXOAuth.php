@@ -1,8 +1,8 @@
 <?php
 
-namespace App\src\px;
+namespace App\Src\Px;
 
-use App\src\Oauth;
+use App\Src\Oauth;
 use GuzzleHttp\Client;
 use GuzzleHttp\Subscriber\Oauth\Oauth1;
 

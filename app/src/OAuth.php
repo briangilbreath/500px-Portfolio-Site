@@ -1,5 +1,5 @@
 <?php
-namespace App\src;
+namespace App\Src;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Subscriber\Oauth\Oauth1;

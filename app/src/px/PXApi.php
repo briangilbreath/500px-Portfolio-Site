@@ -1,6 +1,6 @@
 <?php
 
-namespace App\src\px;
+namespace App\Src\Px;
 
 class PXApi{
 

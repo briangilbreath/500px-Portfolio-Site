@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 
-use App\src\px\PXOAuth;
-use App\src\px\PXApi;
+use App\Src\px\PXOAuth;
+use App\Src\px\PXApi;
 
 class PX_Controller extends Controller{
 
