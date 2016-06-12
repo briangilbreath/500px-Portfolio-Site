@@ -12,11 +12,11 @@ class PXOAuth{
 
     function __construct(){
 
-        $this->oauth = new Oauth(
-            getenv('500PX_KEY'),
-            getenv('500PX_SECRET'),
-            'https://api.500px.com/v1/'
-        );
+        // $this->oauth = new Oauth(
+        //     getenv('500PX_KEY'),
+        //     getenv('500PX_SECRET'),
+        //     'https://api.500px.com/v1/'
+        // );
 
     }
 
