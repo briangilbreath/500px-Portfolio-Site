@@ -1,0 +1,107 @@
+$red: #E06C75;
+$teal: #4DB7C0;
+$green: #98C379;
+$purple: #D07EDE;
+$black: #000;
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 3.75em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color:$black;
+
+    @media (max-width: 999px){
+        font-size: 2.75em;
+    }
+}
+
+a{
+    color:$black;
+
+    &:hover{
+        text-decoration: none;
+        color:#333;
+    }
+}
+nav{
+    li{
+
+        @media (max-width: 999px){
+            display: inline-block;
+        }
+
+        @media (max-width: 479px){
+            display: block;
+        }
+
+        &.active{
+            font-weight: bold;
+        }
+
+    }
+}
+
+
+.home{
+
+    h1{
+        font-size: 10.75em;
+        text-align: center;
+
+        @media (max-width: 1199px){
+            font-size: 7.5em;
+        }
+
+        @media (max-width: 639px){
+            font-size: 4.5em;
+        }
+    }
+
+    .links{
+        text-align: center;
+        margin-bottom: 2em;
+
+        a{
+            color: #555;
+
+        }
+    }
+
+    .camera-laptop{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+.sidebar{
+    li{
+        list-style: none;
+        padding: 1em 0;
+        margin-right: 1em;
+
+        @media (max-width: 479px){
+            padding: .75em 0;
+        }
+    }
+}
+
+
+footer{
+    .legal{
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+}
