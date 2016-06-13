@@ -2,7 +2,7 @@
 
 namespace App\Src\Px;
 
-use App\Src\Oauth;
+use App\Src\OAuth;
 use GuzzleHttp\Client;
 use GuzzleHttp\Subscriber\Oauth\Oauth1;
 
