@@ -6115,6 +6115,12 @@ nav li.active {
     .sidebar li {
       padding: .75em 0; } }
 
+.follow {
+  text-align: center;
+  padding: 5em 0 3em; }
+  .follow .spacer {
+    padding: 0 .5em; }
+
 footer .legal {
   text-align: center;
   margin-top: 4em;

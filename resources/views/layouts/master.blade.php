@@ -17,6 +17,14 @@
 
             @yield('content')
 
+            <div class="follow">
+                <p>Follow me for my latest photos!</p>
+                <a href="http://www.facebook.com/briangilbreathphotography" target="_blank">Facebook</a><span class="spacer">|</span>
+                <a href="http://www.instagram.com/briangilbreath" target="_blank">Instagram</a><span class="spacer">|</span>
+                <a href="http://briangilbreath.tumblr.com/" target="_blank">Tumblr</a><span class="spacer">|</span>
+                <a href="http://www.500px.com/briangilbreath" target="_blank">500px</a>
+            </div>
+
             <footer>
                 <div class="legal">
                     Copyright © {{date('Y')}} Brian Gilbreath. All Rights Reserved.

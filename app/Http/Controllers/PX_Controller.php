@@ -42,7 +42,7 @@ class PX_Controller extends Controller{
             'sort_direction'    => 'desc',
             'page'              => 1,
             'image_size'        => 4,
-            'rpp'               => 40
+            'rpp'               => 60
         ];
 
         $data = $this->api->get_photos_from_gallery($parameters, '22728763');
@@ -63,7 +63,7 @@ class PX_Controller extends Controller{
             'sort_direction'    => 'desc',
             'page'              => 1,
             'image_size'        => 4,
-            'rpp'               => 40
+            'rpp'               => 60
         ];
 
         $data = array(
@@ -87,7 +87,7 @@ class PX_Controller extends Controller{
 
         $parameters = [
             'sort'              => 'position',
-            'sort_direction'    => 'desc',
+            'sort_direction'    => 'asc',
             'page'              => 1,
             'cover_size'        => 4,
             'rpp'               => 40
