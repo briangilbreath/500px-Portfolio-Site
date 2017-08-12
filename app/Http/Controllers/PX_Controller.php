@@ -19,15 +19,6 @@ class PX_Controller extends Controller{
         $this->api = new PXApi($this->oauth);
     }
 
-    /**
-     * Show home page
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function home(){
-        return view('home');
-    }
 
     /**
      * Show photos page

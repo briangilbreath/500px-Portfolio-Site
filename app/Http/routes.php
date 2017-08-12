@@ -12,8 +12,10 @@
 */
 
 
-Route::get('/', 'PX_Controller@home');
-
+Route::get('/', 'Page_Controller@home');
 
 Route::get('/photography', 'PX_Controller@photos');
 Route::get('/photography/{gallery_id}', 'PX_Controller@gallery');
+
+
+Route::get('/technology/{technology_id?}', 'Page_Controller@technology');

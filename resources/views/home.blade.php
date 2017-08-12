@@ -1,14 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Brian Gilbreath - Photographer | Web Developer | New York City')
+@section('title', 'Brian Gilbreath - Photographer | Developer | Tech Lead | Product')
 
 
 @section('content')
     <div class="links">
-        <h2><a href="/photography">Photographer</a> | <a href="/#">Web Developer</a></h2>
+        <h2><a class="button" href="/photography">Photography</a><a class="button" href="/technology">Technology</a></h2>
     </div>
 
-    <img class="camera-laptop" src="/img/cameralaptop.svg" alt="Brian Gilbreath Photography and Web Developer" />
+    <img class="camera-laptop" src="/img/cameralaptop.svg" alt="Brian Gilbreath Photography and Developer" />
 
 
 @endsection

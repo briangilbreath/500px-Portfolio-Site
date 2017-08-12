@@ -2,6 +2,7 @@ bg_com = {
 
     init: function(){
         this.gallery();
+        this.slider();
     },
 
     gallery: function(){
@@ -15,10 +16,27 @@ bg_com = {
                 $('#gallery a').swipebox();
             });
 
-
         })( jQuery );
 
+    },
+
+    slider: function(){
+      (function($) {
+
+          $('#portfolio .project-slider').slick({
+            infinite: true,
+            dots: true
+          });
+
+          $('#portfolio .swipebox').swipebox({
+            hideBarsDelay :-1, // delay before hiding bars on desktop
+          });
+
+      })( jQuery );
+
+
     }
+
 
 }
 
