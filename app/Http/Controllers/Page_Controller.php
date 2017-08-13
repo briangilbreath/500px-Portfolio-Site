@@ -28,7 +28,7 @@ class Page_Controller extends Controller{
      */
     public function technology($technology_id = null){
 
-      $portfolio = $technology_id ?? 'intro';
+      $portfolio = (isset($technology_id)) ? $technology_id : 'intro';
       $data = array(
           'portfolio' => $portfolio,
       );
