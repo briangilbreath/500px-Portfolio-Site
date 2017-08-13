@@ -1,4 +1,40 @@
 @charset "UTF-8";
+.bc-blue {
+  background: #4db7c0; }
+
+.bc-red {
+  background: #e06c75; }
+
+.bc-purple {
+  background: #d07ede; }
+
+.bc-green {
+  background: #98c379; }
+
+.bc-white {
+  background: #fff; }
+
+.bc-black {
+  background: #21252b; }
+
+.tc-blue {
+  color: #4db7c0; }
+
+.tc-red {
+  color: #e06c75; }
+
+.tc-purple {
+  color: #d07ede; }
+
+.tc-green {
+  color: #98c379; }
+
+.tc-white {
+  color: #fff; }
+
+.tc-black {
+  color: #21252b; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6137,7 +6173,7 @@ html.swipebox-html.swipebox-touch {
 
 .slick-dots {
   position: absolute;
-  bottom: -45px;
+  bottom: -35px !important;
   display: block;
   width: 100%;
   padding: 0;
@@ -6175,7 +6211,7 @@ html.swipebox-html.swipebox-touch {
   opacity: 1; }
 
 .slick-dots li button:before {
-  font-size: 6px;
+  font-size: 20px !important;
   line-height: 20px;
   position: absolute;
   top: 0;
@@ -6185,13 +6221,18 @@ html.swipebox-html.swipebox-touch {
   content: '•';
   text-align: center;
   opacity: .25;
-  color: black;
+  color: #e06c75 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: black; }
+
+.slick-slide img {
+  max-height: 380px;
+  display: block;
+  margin: 0 auto; }
 
 body {
   font-family: 'Lato', sans-serif; }
@@ -6216,6 +6257,20 @@ a {
     text-decoration: none;
     color: #333; }
 
+.button {
+  padding: .75rem;
+  padding: .5em;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin: 1em; }
+
+.button:hover {
+  opacity: .85; }
+
 @media (max-width: 999px) {
   nav li {
     display: inline-block; } }
@@ -6224,11 +6279,11 @@ a {
   nav li {
     display: block; } }
 
-nav li.active {
+.active {
   font-weight: bold; }
 
 .home h1 {
-  font-size: 10.75em;
+  font-size: 8em;
   text-align: center; }
   @media (max-width: 1199px) {
     .home h1 {
@@ -6242,13 +6297,16 @@ nav li.active {
 
 .home .links {
   text-align: center;
-  margin-bottom: 2em; }
+  margin-bottom: 3em;
+  padding: 1em; }
   .home .links a {
     color: #555; }
 
 .home .camera-laptop {
-  width: 100%;
-  height: auto; }
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block; }
 
 .sidebar li {
   list-style: none;
@@ -6257,6 +6315,13 @@ nav li.active {
   @media (max-width: 479px) {
     .sidebar li {
       padding: .75em 0; } }
+
+.project-section {
+  margin-bottom: 3rem; }
+  .project-section h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
 
 .follow {
   text-align: center;

@@ -25,7 +25,10 @@ bg_com = {
 
           $('#portfolio .project-slider').slick({
             infinite: true,
-            dots: true
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
           });
 
           $('#portfolio .swipebox').swipebox({

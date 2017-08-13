@@ -5,7 +5,8 @@
 
 @section('content')
     <div class="links">
-        <h2><a class="button" href="/photography">Photography</a><a class="button" href="/technology">Technology</a></h2>
+          <a class="button bc-blue tc-white" href="/photography">Photography</a>
+          <a class="button bc-green tc-white" href="/technology">Technology</a>
     </div>
 
     <img class="camera-laptop" src="/img/cameralaptop.svg" alt="Brian Gilbreath Photography and Developer" />

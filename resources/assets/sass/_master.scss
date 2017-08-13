@@ -33,6 +33,23 @@ a{
         color:#333;
     }
 }
+
+.button{
+  padding: .75rem;
+  padding: .5em;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.button:hover{
+  opacity: .85;
+}
+
 nav{
     li{
 
@@ -44,18 +61,18 @@ nav{
             display: block;
         }
 
-        &.active{
-            font-weight: bold;
-        }
-
     }
+}
+
+.active{
+    font-weight: bold;
 }
 
 
 .home{
 
     h1{
-        font-size: 10.75em;
+        font-size: 8em;
         text-align: center;
 
         @media (max-width: 1199px){
@@ -72,8 +89,9 @@ nav{
     }
 
     .links{
-        text-align: center;
-        margin-bottom: 2em;
+      text-align: center;
+      margin-bottom: 3em;
+      padding: 1em;
 
         a{
             color: #555;
@@ -82,8 +100,10 @@ nav{
     }
 
     .camera-laptop{
-        width: 100%;
-        height: auto;
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
     }
 
 
@@ -101,6 +121,16 @@ nav{
     }
 }
 
+.project-section{
+  margin-bottom: 3rem;
+
+  h3{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
 .follow{
     text-align: center;
     padding: 5em 0 3em;
@@ -109,7 +139,6 @@ nav{
         padding: 0 .5em;
     }
 }
-
 
 footer{
     .legal{

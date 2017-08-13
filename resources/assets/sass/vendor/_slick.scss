@@ -116,8 +116,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
-
+    bottom: -35px!important;
     display: block;
 
     width: 100%;
@@ -170,7 +169,7 @@
 }
 .slick-dots li button:before
 {
-    font-size: 6px;
+    font-size: 20px!important;
     line-height: 20px;
 
     position: absolute;
@@ -184,7 +183,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: $red!important;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -193,4 +192,10 @@
 {
     opacity: .75;
     color: black;
+}
+
+.slick-slide img{
+  max-height: 380px;
+  display: block;
+  margin: 0 auto;
 }
