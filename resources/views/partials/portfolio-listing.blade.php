@@ -24,8 +24,7 @@
     <h3 class="tc-blue">Side Development and Design Projects</h3>
     <h4><a class="{{ set_active('technology/onlytheweather')}}" href="/technology/onlytheweather">Onlytheweather.com</a></h4>
     <h4><a class="{{ set_active('technology/slawth')}}" href="/technology/slawth">Slawth.com</a></h4>
-    <h4><a class="{{ set_active('technology/briangilbreath')}}" href="/technology/briangilbreath">BrianGilbreath.com</a></h4>
-    <h4><a class="{{ set_active('technology/hippobraindesign')}}" href="/technology/hippobraindesign">HippoBrainDesign.com</a></h4>
+    <h4><a class="{{ set_active('technology/hippobraindesign')}}" href="/technology/hippobraindesign">HippoBrainDesign</a></h4>
   </div>
 
 </div>
