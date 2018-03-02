@@ -1,7 +1,7 @@
 <h2>Hello!</h2>
-<p>My name is Brian Gilbreath, and I'm lead developer at AMC Networks in New York City!</p>
+<p>My name is Brian Gilbreath, and I am Manager of Innovation and UX at AMC Networks in New York City!</p>
 
-<p>Developing and being a tech lead is what I love most. I lead the development
+<p>Developing and being a tech lead is what I love most. I lead front end development
 on all of AMC Networks websites, and have pioneered our internal web prototypes for all mobile and
 living room apps (OTT). What makes this position so much fun is that it forces me to keep up-to-date with
 latest and greatest technologies, and product management processes.</p>
@@ -15,3 +15,5 @@ and interestedin pursuing how media continues to transform the living room exper
 
 <p>Check out some of the project's I've worked on over the last few years, including <a href="/technology/amc">amc.com</a>
  and <a href="/technology/amc">bbcamerica.com</a>, which were awarded Webby's in 2016 and 2017 for best television website.</p>
+<br>
+<p><a class="button bc-blue tc-white" style="margin-left:0;" href="https://www.linkedin.com/in/briangilbreath/" title="Brian Gilbreath's LinkedIn">LinkedIn</a></p>

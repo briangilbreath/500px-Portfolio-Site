@@ -5,9 +5,10 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title')</title>
+        <meta description="@yield('description', 'The official site of Brian Gilbreath. Web manager of Front End Development, Innovation and UX at AMC Networks. Street Photographer.')">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,100,900' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
         <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}"/>
     </head>
     <body class="{{ body_class() }}">
